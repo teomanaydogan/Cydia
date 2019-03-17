@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7D8D49AB223E614100800CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D49AA223E614100800CEC /* AppDelegate.swift */; };
-		7D8D49AD223E614100800CEC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D49AC223E614100800CEC /* FirstViewController.swift */; };
-		7D8D49AF223E614100800CEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D49AE223E614100800CEC /* SecondViewController.swift */; };
 		7D8D49B2223E614100800CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8D49B0223E614100800CEC /* Main.storyboard */; };
 		7D8D49B4223E614200800CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8D49B3223E614200800CEC /* Assets.xcassets */; };
 		7D8D49B7223E614200800CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8D49B5223E614200800CEC /* LaunchScreen.storyboard */; };
+		7D8D49C1223E860700800CEC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D49C0223E860700800CEC /* UserManager.swift */; };
+		7D8D4B7E223EE59E00800CEC /* PackageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D4B7D223EE59E00800CEC /* PackageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D8D49A7223E614100800CEC /* Cydia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cydia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8D49AA223E614100800CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D8D49AC223E614100800CEC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7D8D49AE223E614100800CEC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7D8D49B1223E614100800CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D8D49B3223E614200800CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8D49B6223E614200800CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D8D49B8223E614200800CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8D49C0223E860700800CEC /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7D8D4B7D223EE59E00800CEC /* PackageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				7D8D49AA223E614100800CEC /* AppDelegate.swift */,
-				7D8D49AC223E614100800CEC /* FirstViewController.swift */,
-				7D8D49AE223E614100800CEC /* SecondViewController.swift */,
 				7D8D49B0223E614100800CEC /* Main.storyboard */,
+				7D8D49C0223E860700800CEC /* UserManager.swift */,
 				7D8D49B3223E614200800CEC /* Assets.xcassets */,
 				7D8D49B5223E614200800CEC /* LaunchScreen.storyboard */,
 				7D8D49B8223E614200800CEC /* Info.plist */,
+				7D8D4B7D223EE59E00800CEC /* PackageManager.swift */,
 			);
 			path = Cydia;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D8D49AF223E614100800CEC /* SecondViewController.swift in Sources */,
 				7D8D49AB223E614100800CEC /* AppDelegate.swift in Sources */,
-				7D8D49AD223E614100800CEC /* FirstViewController.swift in Sources */,
+				7D8D4B7E223EE59E00800CEC /* PackageManager.swift in Sources */,
+				7D8D49C1223E860700800CEC /* UserManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
